@@ -1,0 +1,14 @@
+<div class="container">
+    <button class="btn btn-info" (click)="textoActivo='primero'">Mostrar texto 1</button>
+    <button class="btn btn-warning" (click)="textoActivo='segundo'">Mostrar texto 2</button>
+
+    <p class="text-info d-none" [ngClass]="{'d-block':textoActivo=='primero'}">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis sint perferendis, quisquam
+        obcaecati,
+        aspernatur ut natus inventore pariatur nostrum consequatur deserunt voluptatum ab cum itaque sit vel dolor, at
+        quas.</p>
+
+    <p class="text-warning d-none" [ngClass]="{'d-block':textoActivo=='segundo'}">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat eligendi vitae repellat,
+        itaque, voluptate ipsum
+        voluptatibus, perferendis porro architecto doloremque earum obcaecati minus dicta id nostrum cupiditate
+        inventore quisquam ad?</p>
+</div>
