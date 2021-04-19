@@ -1,0 +1,22 @@
+<div class="container">
+    <h4>Tabla usando ngFor</h4>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Identificador</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Apellido</th>
+                <th scope="col">Edad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let persona of personas; index as i">
+                <th scope="row">{{i+1}}</th>
+                <td>{{persona.Nombre}}</td>
+                <td>{{persona.Apellido}}</td>
+                <td>{{persona.Edad}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+

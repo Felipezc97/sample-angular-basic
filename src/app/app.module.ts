@@ -7,6 +7,7 @@ import { CabeceraComponent } from './cabecera/cabecera.component';
 import { CuerpoComponent } from './cuerpo/cuerpo.component';
 import { Cuerpo2Component } from './cuerpo2/cuerpo2.component';
 import { Cuerpo3Component } from './cuerpo3/cuerpo3.component';
+import { TablaComponent } from './tabla/tabla.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { Cuerpo3Component } from './cuerpo3/cuerpo3.component';
     CabeceraComponent,
     CuerpoComponent,
     Cuerpo2Component,
-    Cuerpo3Component
+    Cuerpo3Component,
+    TablaComponent
   ],
   imports: [
     BrowserModule,
